@@ -1,0 +1,135 @@
+.title {
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px 0; 
+    box-sizing: border-box; 
+}
+
+.title-Content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-Content img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.title-Content h1 {
+    margin: 0;
+
+}
+
+#titleImage {
+    height: 70px;
+
+}
+
+
+
+
+
+
+.container {
+    text-align: center;
+    margin-top: 125px;
+    background-color: white;
+    margin-left:750px ;
+    margin-right:650px ;
+    border-radius: 12px;
+    height: 500px;
+    padding-top: 25px;
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+
+body {
+    background: rgb(126,28,36);
+    background: linear-gradient(90deg, rgba(126,28,36,1) 0%, rgba(152,16,16,1) 35%, rgba(126,60,60,1) 100%);
+    font-family: "ＭＳ Ｐゴシック";
+    margin: 0;
+}
+
+#pokemonSprite {
+    margin: 20px auto;
+    padding-top: 55px;
+    height: 160px;
+}
+
+#pokemonName {
+height: 40px;
+width: 300px;
+border-radius: 8px;
+font-size: 30px;
+font-family: "ＭＳ Ｐゴシック";
+font-weight: 25px;
+border-color: black;
+}
+
+button {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "ＭＳ Ｐゴシック";
+    font-weight: 25px;
+
+
+
+}
+
+button:hover{
+    background-color: rgb(170, 171, 173);
+}
+
+
+
+#name-display {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+
+#type-display {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+
+
+.gg-search {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px
+}
+.gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 6px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
